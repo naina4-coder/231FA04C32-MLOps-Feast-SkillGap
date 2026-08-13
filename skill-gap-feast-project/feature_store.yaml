@@ -1,0 +1,13 @@
+
+project: skill_gap_project
+provider: local
+
+registry:
+  path: data/registry.db
+
+offline_store:
+  type: file
+
+online_store:
+  type: sqlite
+  path: data/online_store.db
